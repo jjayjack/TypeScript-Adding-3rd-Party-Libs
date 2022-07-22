@@ -17,3 +17,11 @@ Normal JavaScript libraries require @types to be defined to be read and compiled
 Type package that will indicate to TypeScript how to read the installed library.
 `npm i --save-dev @types/lodash`
 These installations includ **d.ts** files that contain how file works and how TS will read it.
+
+### Class Transformer
+
+[Class transformer](https://github.com/typestack/class-transformer) is a third party library that targets classes.
+
+**Required**
+`npm i class-transformer --save-dev`
+`npm i reflect-metadata --save`
