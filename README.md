@@ -6,6 +6,10 @@ Third party libraries when writing code help us add functionality and details th
 
 To utilize any JavaScript normal library there are added dependencies to make sure TypeScript can read the file.
 
+### Using "declare"
+
+Normal JavaScript libraries require @types to be defined to be read and compiled by TypeScript. In some cases, these are not available. When that happens declare is utilized. This allows a user to force TypeScript to recognize variables or features that exist.
+
 ### Lodash Library
 
 [Lodash](https://lodash.com/) is a JavaScript library that helps with managing methods that utilize priminitive and non-primitive data types.
