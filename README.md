@@ -25,3 +25,8 @@ These installations includ **d.ts** files that contain how file works and how TS
 **Required**
 `npm i class-transformer --save-dev`
 `npm i reflect-metadata --save`
+
+### Class Validator
+
+Builds up on TypeScript Decorators. Adds validation rules within a class and will automatically validate.
+`npm i class-validator --save`
