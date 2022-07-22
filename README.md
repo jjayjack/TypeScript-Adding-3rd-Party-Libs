@@ -4,6 +4,12 @@ Third party libraries when writing code help us add functionality and details th
 
 ## Normal Libraries
 
+To utilize any JavaScript normal library there are added dependencies to make sure TypeScript can read the file.
+
 ### Lodash Library
 
 [Lodash](https://lodash.com/) is a JavaScript library that helps with managing methods that utilize priminitive and non-primitive data types.
+**Required**
+Type package that will indicate to TypeScript how to read the installed library.
+`npm i --save-dev @types/lodash`
+These installations includ **d.ts** files that contain how file works and how TS will read it.
